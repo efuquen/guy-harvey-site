@@ -1,0 +1,146 @@
+body {
+  background: url("../img/bg.jpg") top left;
+}
+
+.container {
+}
+
+#top-spacing {
+  height: 20px;
+}
+
+#bottom-spacing {
+  height: 60px;
+}
+
+.header {
+  -moz-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  -moz-border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
+
+
+  margin-top: 10px;
+
+  opacity: 0.7;
+  background: white;
+}
+
+.header .logo{
+  float: left;
+  margin-left: 10px;
+}
+
+.header .nav {
+  margin-bottom: 0px;
+  margin-left: 170px;
+  padding-top: 125px;
+}
+
+.header .nav li {
+  display: inline-block;
+  list-style: none;
+  width: 95px;
+  text-align: center;
+}
+
+.header .nav li a {
+  display: inline;
+  color: black;
+}
+
+#header-divide {
+  border: 0px;
+  color: #007fc4;
+  background: #007fc4;
+  opacity: 1.0;  
+  height: 10px;
+  width: 920px;
+
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
+  opacity: 0.7;
+  background: white;
+  padding-top: 15px;
+}
+
+.body .scrolling-pics {
+  margin-left: 75px;
+  margin-right: 75px;
+
+  height: 350px;
+
+  background: black;
+}
+
+.body .articles {
+  margin-top: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.body .articles .col {
+  margin-left: 20px;
+  width: 365px;
+  float: left;
+}
+
+#mission-article img {
+  float: left;
+  margin-right: 10px;
+}
+
+.read-more {
+  width: 100%;
+  text-align: right;
+}
+
+.view-more {
+  width: 100%;
+  text-align: right;
+}
+
+.footer {
+  -moz-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  height: 300px;
+  background: #956659;
+  opacity: 1.0;
+}
+
+.footer .nav {
+  background: #4d3028;
+}
+
+.footer .nav ul {
+  list-style: none;
+}
+
+.footer .nav li {
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+}
+
+.footer .nav li a {
+  display: inline;
+  color: white;
+}
+
+.footer .subnav ul {
+  list-style: none;
+}
+
+.footer .subnav li {
+  display: inline-block;
+  width: 130px;
+
+}
